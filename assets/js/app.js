@@ -27,7 +27,7 @@ const cardsData = [
 
 function createCard(cardData) {
     const card = document.createElement('div');
-    card.classList.add('col-12', 'col-md-6', 'col-xl-3', 'mb-24');
+    card.classList.add('col-12', 'col-md-6','col-lg-4' ,'col-xl-3', 'mb-24');
     let cards = `
     <div class="card">
       <img src="${cardData.image}" class="w-100 mb-2" alt="${cardData.name}">
