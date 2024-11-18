@@ -30,10 +30,10 @@ function createCard(cardData) {
     card.classList.add('col-12', 'col-md-6', 'col-xl-3', 'mb-24');
     let cards = `
     <div class="card">
-      <img src="${cardData.image}" class="w-100 mb-4" alt="${cardData.name}">
+      <img src="${cardData.image}" class="w-100 mb-2" alt="${cardData.name}">
       <div class="card-body">
-        <h5 class="name mb-3 text-center">${cardData.name}</h5>
-          <p class="about mb-3 text-center">${cardData.about}</p>
+        <h5 class="name mb-2 text-center">${cardData.name}</h5>
+          <p class="about mb-2 text-center">${cardData.about}</p>
         </div>
     </div>
   `;
